@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CALCULATOR</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<form name="calc" class="main"> 
+    <br/>
+  <div class ="screen">
+    <input type="text" name="input" id="answer">
+      </div>
+    <div class="all-input">
+      <input type="button" id="clear" name="clear" value="AC" onclick="calc.input.value=''">
+      <input type="button" id="clear" name="plusminus" value="+/-" onclick="calc.input.value+=''">
+      <input type="button" id="clear" name="percent" value="%" onclick="calc.input.value+=''">
+      <input type="button" class="operator" name="div" value="/" onclick="calc.input.value+='/'">
+         
+      <input type="button" class="num" name="seven" value="7" onclick="calc.input.value+='7'">
+      <input type="button" class="num" name="eight" value="8" onclick="calc.input.value+='8'">
+      <input type="button" class="num" name="nine" value="9" onclick="calc.input.value+='9'">
+      <input type="button" class="operator" name="times" value="X" onclick="calc.input.value+='*'">
+        
+     <input type="button" class="num" name="four" value="4" onclick="calc.input.value+='4'">
+      <input type="button" class="num" name="five" value="5" onclick="calc.input.value+='5'">
+      <input type="button" class="num" name="six" value="6" onclick="calc.input.value+='6'">
+      <input type="button" class="operator" name="minus" value="-" onclick="calc.input.value+='-'">
+        
+      <input type="button" class="num" name="one" value="1" onclick="calc.input.value+='1'">
+      <input type="button" class="num" name="two" value="2" onclick="calc.input.value+='2'">
+      <input type="button" class="num" name="three" value="3" onclick="calc.input.value+='3'">
+      <input type="button" class="operator" name="plus" value="+" onclick="calc.input.value+='+'">      
+        
+      <input type="button" class="num" name="zero" value="0" onclick="calc.input.value+='0'"style="width:118px;">
+      <input type="button" class="num" name="dot" value="." onclick="calc.input.value+='.'">
+      <input type="button" class="operator" name="doit" value="=" onclick="calc.input.value=eval(calc.input.value)">  
+        </div>
+      </form>
+    
+    
+    
+    
+    </body>
+  </html>
+    

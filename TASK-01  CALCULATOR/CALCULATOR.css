@@ -1,0 +1,71 @@
+body{
+  background-color:black;
+}
+.main{
+  margin:7% auto;
+  background-image:url(https://i.pinimg.com/236x/2c/b1/30/2cb130dc26a300eddbde80491957978b.jpg);
+  width:350px;
+  height:600px;
+  text-align:center;
+  border-radius:4px;
+  background-size:cover;
+}
+.all-input{
+  text-align:center;
+  width:265px;
+  margin:0 auto;
+}
+input{
+  outline: none;
+  position:relative;
+  left:5px;
+  top:5px;
+  border:0;
+  color:white;
+  background:#333;
+  border-radius:26px;
+  font-family:system-ui;
+  margin:5px;
+  float:left;
+  font-size:20px;
+  height:55px;
+  width:55px;
+}
+#answer{
+  width:258px;
+  font-size:26px;
+  text-align:right;
+  background:transparent;
+  float:left;
+  font-size:53px;
+  color:white;
+  font-weight:100!important;
+  margin-top:130px;
+}
+.operator{
+  background:#e99e39;
+  position:relative;
+  border-radius:27px;
+  height:55px;
+  width:55px;
+  font-weight:400;
+  color:white;
+}
+.operator: hover{
+  background-color:white;
+  color:#e99e39;
+}
+.num:hover{
+  background-color:#ffffff75;
+}
+#clear{
+float:left;
+position:relative;
+display:block;
+color:black;
+background-color:#a0a0a0;
+}
+#clear:hover{
+  background-color:#ffffffb5;
+  
+  
